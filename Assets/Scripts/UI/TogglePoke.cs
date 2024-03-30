@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class TogglePoke : MonoBehaviour
 {
     private Toggle toggle;
-    private PlantTest PT;
+    private ObjectSpawner PT;
     void Start()
     {
         toggle = GetComponent<Toggle>();
-        PT = GetComponent<PlantTest>();
+        PT = GetComponent<ObjectSpawner>();
         toggle.onValueChanged.AddListener(OnToggleValueChanged);
     }
 
@@ -19,7 +19,7 @@ public class TogglePoke : MonoBehaviour
         // 检查Toggle的新值是否为true（选中状态）
         if (isOn)
         {
-            PT.PottedPlant();
+            PT.Spawn();
         }
     }
 }

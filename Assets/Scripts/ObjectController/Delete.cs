@@ -6,6 +6,7 @@ public class Delete : MonoBehaviour
 {
     public Transform spawnPoint;
     private bool Active=false;
+    public CodeManager codeManager; // 添加对CodeManager的公共引用
 
     private void Start()
     {
@@ -37,6 +38,7 @@ public class Delete : MonoBehaviour
         if (collision.gameObject.tag == "Plant")
         {
             Destroy(collision.gameObject);
+            codeManager.DeleteCode(collision.gameObject.name);
         }
     }
 }
