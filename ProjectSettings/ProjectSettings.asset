@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: AroMR
+  productName: AroMR Final Window
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -142,8 +142,6 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: 83a87051724e4cf49bd53c8ecdb3f76e, type: 2}
-  - {fileID: 11400000, guid: 098e905ea86cf3346939c6ccef290e1d, type: 2}
-  - {fileID: -4455709016466919586, guid: 7880fe1fd0159e843976072bdc3324b9, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -164,7 +162,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.AroMR
+    Android: com.DefaultCompany.AroMRFinalWindow
     Standalone: com.DefaultCompany.AroMR
   buildNumber:
     Standalone: 0
@@ -254,7 +252,7 @@ PlayerSettings:
   clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
   templatePackageId: com.unity.template.3d@8.1.1
   templateDefaultScene: Assets/Scenes/SampleScene.unity
-  useCustomMainManifest: 0
+  useCustomMainManifest: 1
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
   useCustomLauncherGradleManifest: 0
@@ -290,7 +288,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: d5c63d1897c276542b61783bf59ef404, type: 3}
+      m_Icon: {fileID: 2800000, guid: 70dea08dc2086fd4f88c8380aa995939, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

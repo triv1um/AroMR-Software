@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/PoseExamples.unity
     guid: cafb4b810b6792e45a17f60094125096
   - enabled: 1
-    path: Assets/Scenes/AroMR interface.unity
+    path: Assets/Scenes/AroMR_interface_ForestinWindow.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/AroMR_interface_Forestaround.unity
+    guid: 83f2c2e3504290e49a45180c371ceb27
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 098e905ea86cf3346939c6ccef290e1d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7880fe1fd0159e843976072bdc3324b9, type: 2}

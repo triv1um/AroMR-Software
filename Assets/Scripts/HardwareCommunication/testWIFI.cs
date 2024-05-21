@@ -7,7 +7,7 @@ using System.Text;
 public class testWIFI : MonoBehaviour
 {
     // 定义 ESP32 设备的 IP 地址
-    string esp32IP = "172.20.10.6";
+    string esp32IP = "192.168.71.15";
     // 定义要连接的端口号，这里使用 HTTP 默认的 80 端口
     int port = 80;
 
